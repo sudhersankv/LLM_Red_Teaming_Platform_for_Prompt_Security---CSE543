@@ -1,0 +1,17 @@
+pip install -r requirements.txt
+
+# set your Groq key
+export GROQ_API_KEY="gsk_..."    # or put GROQ_API_KEY in a .env file
+
+# baseline only (no firewall)
+python run_redteam.py --mode baseline
+
+# firewall only
+python run_redteam.py --mode firewall
+
+# both
+python run_redteam.py --mode both
+
+# metrics
+python run_redteam.py --mode metrics
+
