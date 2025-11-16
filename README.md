@@ -16,6 +16,7 @@ python run_redteam.py --mode both
 # metrics
 python run_redteam.py --mode metrics
 
+# Config
 In config.py lines 48 and above shows choice to get variety of datasets
 
 In config.py lines 16 provides choice to get target_model
