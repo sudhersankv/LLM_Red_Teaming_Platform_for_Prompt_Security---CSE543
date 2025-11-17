@@ -16,7 +16,7 @@ from attacks import get_builtin_strategies, AttackSample
 from datasets_loader import load_all_dataset_samples
 from evaluator import heuristic_evaluate, eval_to_dict
 from llm_client import call_target_llm
-from firewall import firewall_check
+from my_firewall.pipeline import run_pipeline as firewall_check
 
 
 def iter_builtin_samples() -> Iterable[AttackSample]:
