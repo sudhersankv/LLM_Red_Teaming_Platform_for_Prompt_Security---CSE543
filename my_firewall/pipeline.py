@@ -1,8 +1,8 @@
 from typing import Any, Dict
 
-from rule_filter import run_rule_filter
-from ml_classifier import classify, is_harmful_label
-from llm_guard import check_with_llm
+from my_firewall.rule_filter import run_rule_filter
+from my_firewall.ml_classifier import classify, is_harmful_label
+from my_firewall.llm_guard import check_with_llm
 
 
 def run_pipeline(prompt: str) -> dict:  # Changed to return dict for compatibility

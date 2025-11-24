@@ -7,3 +7,4 @@ __pycache__/
 *.pyc
 .DS_Store
 sanitized_*.png
+my_firewall/prompt_classifier_model/

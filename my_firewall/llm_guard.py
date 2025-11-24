@@ -1,9 +1,9 @@
 from typing import Optional
 
 from groq import Groq
-from fw_types import LLMGuardResult  # Assuming you renamed types.py to fw_types.py
+from my_firewall.fw_types import LLMGuardResult  # Assuming you renamed types.py to fw_types.py
 
-import fw_config  # Updated from import config
+from my_firewall import fw_config  # Updated from import config
 
 _client: Optional[Groq] = None
 

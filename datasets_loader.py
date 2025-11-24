@@ -12,7 +12,6 @@ from attacks import AttackSample
 from config import (
     USE_ADV_BENCH,
     USE_HARM_BENCH,
-    USE_REAL_TOXICITY,
     MAX_SAMPLES_PER_DATASET,
 )
 

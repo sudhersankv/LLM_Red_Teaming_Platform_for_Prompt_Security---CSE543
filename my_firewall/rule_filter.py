@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from fw_types import RuleResult   # Or fw_types if you renamed it
+from my_firewall.fw_types import RuleResult   # Or fw_types if you renamed it
 import regex as re
 
 # Expanded from dataset: misinformation, chemical/biological, illegal/cyber, harmful, copyright

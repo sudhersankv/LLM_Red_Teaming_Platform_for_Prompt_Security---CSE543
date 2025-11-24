@@ -47,4 +47,4 @@ FLAG_KEYWORDS = [
 # If you don't want them, set all to False.
 USE_ADV_BENCH = True       # set True once you know the exact HF id
 USE_HARM_BENCH = True      # set True once wired to a valid harmbench dataset
-MAX_SAMPLES_PER_DATASET = 20   # cap for faster runs
+MAX_SAMPLES_PER_DATASET = 10   # cap for faster runs
